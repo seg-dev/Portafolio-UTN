@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: inherit;
+}
+
+body{
+    background: #061a40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.menu{
+    width: 100%;
+    background: #041432;
+    position: relative;
+}
+
+.manu__hamburguesa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.5rem;
+}
+.manu__hamburguesa__logo{
+    color: #b9d6f2;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.manu__hamburguesa__icon_open{
+    color: #b9d6f2;
+    height: 2rem;
+    width: 1.5rem;
+    border: 0.1rem solid #b9d6f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.4rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    /* display: none; */
+}
+.manu__hamburguesa__icon_open div{
+    border: 0.1rem solid #b9d6f2;
+    width: 100%;
+}
+
+.manu__hamburguesa__icon_close{
+    color: #b9d6f2;
+    height: 2rem;
+    width: 1.5rem;
+    border: 0.1rem solid #b9d6f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.menu__lista__container{
+    position: absolute;
+    width: 100%;
+}
+
+.display__none{
+    display: none;
+}
+
+.menu__lista__items{
+    color: #b9d6f2;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    border:0.1rem solid #061a40;
+    cursor: pointer;
+    background: #041432;
+    opacity: 0.8;
+}
+
+.menu__lista__items:hover{
+    color: #0353a4;
+    border:0.1rem solid #0353a4;
+}
+
+.section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    width: 100%;
+    height: calc(100vh - 3.5rem);
+}
+
+.section__inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__inicio__img{
+    height: 20rem;
+    width: auto;
+}
+.section__inicio__hola{
+    color: #0353a4;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.section__inicio__blackcodes{
+    color: #0353a4;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.section__inicio__container__btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    gap: 0.5rem;
+    /* border: 1px solid red;
+    transform: skewX(-22deg); */
+}
+
+.section__inicio__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b9d6f2;
+    width: 10rem;
+    border: 0.2rem solid #041432;
+    padding: 0.5rem 1rem;
+    transform: skewX(-25deg);
+    cursor: pointer;
+}
+
+.section__inicio__btn:hover{
+    color: #0353a4;
+    border: 0.2rem solid #0353a4;
+}
+
+.section__inicio__btn__sobreNosotros{
+    transform: skewX(25deg);
+}
+
+.section__inicio__btn__contacto{
+    transform: skewX(25deg);
+}
