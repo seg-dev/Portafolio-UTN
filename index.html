@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/globalStyle.css">
     <title>UTN PORTAFOLIO</title>
 </head>
 <body>
@@ -25,13 +26,23 @@
         </nav>
     </header>
     <main class="section">
-        <section class="section__inicio">
+        <section class="section__inicio" id="Inicio">
             <h2 class="section__inicio__hola">Hola!</h2>
             <h1  class="section__inicio__blackcodes">Somos BlackCodes.</h1>
             <img src="./img/teams.png" alt="teams" class="section__inicio__img">
-            <div class="section__inicio__container__btn">
-                <div class="section__inicio__btn"><a href="#" class="section__inicio__btn__sobreNosotros">Sobre Nosotros</a></div>
-                <div class="section__inicio__btn"><a href="#" class="section__inicio__btn__contacto">Contacto</a></div>
+            <div class="section__container__btn">
+                <div class="section__btn"><a href="#Sobre_Nosotros" class="section__btn__text">Sobre Nosotros</a></div>
+                <div class="section__btn"><a href="#" class="section__btn__text">Contacto</a></div>
+            </div>
+        </section>
+        <section class="section__sn">
+            <div class="section__sn__container" id="Sobre_Nosotros">
+                <p class="section__sn__text">
+                    ¡Hola! Somos Blackcodes, un equipo de desarrolladores apasionados con una amplia experiencia en el emocionante mundo del desarrollo de aplicaciones. Trabajamos con una amplia gama de tecnologías backend como SQL Server, MySQL, MongoDB, Python y Docker, lo que nos permite crear aplicaciones eficientes y robustas.
+
+                    En el ámbito frontend, utilizamos tecnologías como HTML, CSS, JavaScript y React para desarrollar interfaces de usuario atractivas y funcionales. Además, contamos con conocimientos en desarrollo full stack, combinando nuestras habilidades tanto en backend como en frontend para ofrecer soluciones completas y de alta calidad. Aunque no hemos trabajado como desarrolladores en entornos reales, hemos aplicado estos conocimientos en proyectos personales, fortaleciendo nuestras habilidades en este campo.
+                </p>
+                <div class="section__btn"><a href="#"        class="section__btn__text">Proyectos</a></div>
             </div>
         </section>
     </main>

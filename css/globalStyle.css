@@ -1,0 +1,31 @@
+
+.section__container__btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    gap: 0.5rem;
+    /* border: 1px solid red;
+    transform: skewX(-22deg); */
+}
+
+.section__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b9d6f2;
+    width: 10rem;
+    border: 0.2rem solid #041432;
+    padding: 0.5rem 1rem;
+    transform: skewX(-25deg);
+    cursor: pointer;
+}
+
+.section__btn:hover{
+    color: #0353a4;
+    border: 0.2rem solid #0353a4;
+}
+
+.section__btn__text{
+    transform: skewX(25deg);
+}
